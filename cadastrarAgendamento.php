@@ -30,14 +30,14 @@ if(!empty($_POST['nomeDoEvento']) &&
     $result = $stmt->execute();
     
     if (!$result){
-        header('Location: /FestaDeChurrasco?msg=error');
+        header('Location: /Levex?msg=error');
         exit;
     }
 
-    header('Location: /FestaDeChurrasco?msg=success');
+    header('Location: /Levex?msg=success');
     exit;
 } else {
-    header('Location: /FestaDeChurrasco?msg=warning');
+    header('Location: /Levex?msg=warning');
 }
 exit;
 

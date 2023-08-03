@@ -84,31 +84,41 @@
                         </div>
                         <form id="formEdit" method="post" action="editEvento.php">
                             <div class="modal-body">
-                                
+
                                 <div>
-                                    <div class="form-group input-group">
-                                        <label for="nomeDoEvento">Nome do evento</label>
-                                        <input required="required" class="form-control" type="text" id="nomeDoEventoEdit" placeholder=" Nome do evento " name="nomeDoEventoEdit" maxlength="255">
+                                    <div class="form-group row">
+                                        <label for="nomeDoEvento" class="col-md-3 col-form-label">Nome do evento</label>
+                                        <div class="col-md-9">
+                                            <input required="required" class="form-control" type="text" id="nomeDoEventoEdit" placeholder=" Nome do evento " name="nomeDoEventoEdit" maxlength="255">
+                                        </div>
                                     </div>
 
-                                    <div class="form-group input-group">
-                                    <label for="descricao">Descrição</label>
-                                    <input required="required" class="form-control" type="text" id="descricaoEdit" placeholder=" Descrição " name="descricaoEdit">
+                                    <div class="form-group row">
+                                        <label for="descricao" class="col-md-3 col-form-label">Descrição</label>
+                                        <div class="col-md-9">
+                                            <input required="required" class="form-control" type="text" id="descricaoEdit" placeholder=" Descrição " name="descricaoEdit">
+                                        </div>
                                     </div>
 
-                                    <div class="form-group input-group">
-                                        <label for="iniciodata">Data de início</label>
-                                        <input required="required" class="form-control" type="date" id="iniciodataEdit" placeholder=" Data de inicio do evento" name="iniciodataEdit">
+                                    <div class="form-group row">
+                                        <label for="iniciodata" class="col-md-3 col-form-label">Data de início</label>
+                                        <div class="col-md-9">
+                                            <input required="required" class="form-control" type="date" id="iniciodataEdit" placeholder=" Data de inicio do evento" name="iniciodataEdit">
+                                        </div>
                                     </div>
 
-                                    <div class="form-group input-group">
-                                        <label for="fimdata">Data de fim</label>
-                                        <input required="required" class="form-control" type="date" id="fimdataEdit" placeholder=" Data de termino termino " name="fimdataEdit">
+                                    <div class="form-group row">
+                                        <label for="fimdata" class="col-md-3 col-form-label">Data de fim</label>
+                                        <div class="col-md-9">
+                                            <input required="required" class="form-control" type="date" id="fimdataEdit" placeholder=" Data de termino termino " name="fimdataEdit">
+                                        </div>
                                     </div>
 
-                                    <div class="form-group input-group">
-                                        <label for="cliente">Cliente</label>
-                                        <input required="required" class="form-control" type="text" id="clienteEdit" placeholder=" Cliente " name="clienteEdit" maxlength="255">
+                                    <div class="form-group row">
+                                        <label for="cliente" class="col-md-3 col-form-label">Cliente</label>
+                                        <div class="col-md-9">
+                                            <input required="required" class="form-control" type="text" id="clienteEdit" placeholder=" Cliente " name="clienteEdit" maxlength="255">
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -120,6 +130,7 @@
                     </div>
                 </div>
             </div>
+
 
             <div class="modal fade" id="confirmarExclusaoModal" tabindex="-1" role="dialog" aria-labelledby="modalConfirmacaoLabel" aria-hidden="true">
                 <div class="modal-dialog" role="document">
